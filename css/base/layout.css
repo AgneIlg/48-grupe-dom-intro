@@ -33,7 +33,11 @@
     }
 }
 @media (max-width: 460px) {
-    .container .row {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .container .row{
         --w: 100%
     }
 }
